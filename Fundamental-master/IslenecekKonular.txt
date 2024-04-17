@@ -1,0 +1,24 @@
+Intro
+	Try-Catch
+	Donguler while ,do-while , for ,(foreach dongu degildir. Iterasyondur)
+	Diziler
+	Hazir Metodlar
+	   String Metodlar
+	   DateTime Metodlar
+	   Math Kutuphanesi
+	   File Kutuphanesi...
+	Kendi Metodlarimiz Nasil yazariz
+	  ref ,out  ,return 
+
+OOP = En Onemli YEr
+  class ,interface ,kalitim ,polimorfizim
+DataAccess
+   Ado.Net , 
+   EntityFrameWorkCore (ORM)
+Web
+  Html, Css ,JavaScript , Bootstrap
+Asp.Net Core
+   MVC , Web APi , EF ,KAtmanli Mimari
+
+ Projeler
+
