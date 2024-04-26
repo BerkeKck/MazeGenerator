@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Giris.BilgisayarParcalari
+namespace _4_Kalitim.Bilgisayarlar
 {
-    public class Ram 
+    public class Parca
     {
         public string Marka { get; set; }
         public string Model { get; set; }
-        public float Fiyat { get; set; }
-        public int Kapasite { get; set; }
-        public RamTipi RamTipi { get; set; }
-       
+       public float Fiyat { get; set; }
     }
 }

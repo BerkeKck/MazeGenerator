@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_4_Kalitim.Kutuphane.Kitap" Collapsed="true">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAAQAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Kutuphane\Kitap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Kutuphane.Kutuphane" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAABAgAAAgAAAAIAAAQAEA=</HashCode>
+      <FileName>Kutuphane\Kutuphane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Kutuphane.Uye" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Kutuphane\Uye.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Kutuphane.Yazar">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Kutuphane\Yazar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.Adres">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQgAAAAAAAAAAAAAAAIAAAAAABAACAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\Adres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.Kisi" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAICAAAAAEBAAAAAAAAAAAAAEACAAAACAAAAA=</HashCode>
+      <FileName>Personeller\Kisi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="_4_Kalitim.Kutuphane.KitapKategorileri" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAABAAUIEAJxAIAoEECAAAAQgggAAAAAAApAAAgMAQ=</HashCode>
+      <FileName>Kutuphane\KitapKategorileri.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_4_Kalitim.Kutuphane.UyeTipi" Collapsed="true">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAACAAAAAAAABAACAAA=</HashCode>
+      <FileName>Kutuphane\Uye.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
