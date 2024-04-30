@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_7_Polimorfizim.Hayvanlar.Hayvan">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hayvanlar\Hayvan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_7_Polimorfizim.Hayvanlar.Kedi">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hayvanlar\Kedi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_7_Polimorfizim.Hayvanlar.Kopek">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hayvanlar\Kopek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_7_Polimorfizim.Hayvanlar.Kus">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hayvanlar\Kus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_7_Polimorfizim.Hayvanlar.Leopar">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hayvanlar\Leopar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
