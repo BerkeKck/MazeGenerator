@@ -4,6 +4,7 @@ using CompanyInfo.Entities.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CompanyInfo.Entities.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240529131009_EntityConfig")]
+    partial class EntityConfig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,25 +53,25 @@ namespace CompanyInfo.Entities.Migrations
                         {
                             Id = 1,
                             BirimAdi = "Adet",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1476)
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 534, DateTimeKind.Local).AddTicks(9211)
                         },
                         new
                         {
                             Id = 2,
                             BirimAdi = "Cm",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1480)
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 534, DateTimeKind.Local).AddTicks(9212)
                         },
                         new
                         {
                             Id = 3,
                             BirimAdi = "Gram",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1483)
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 534, DateTimeKind.Local).AddTicks(9214)
                         },
                         new
                         {
                             Id = 4,
                             BirimAdi = "Miligram",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1486)
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 534, DateTimeKind.Local).AddTicks(9215)
                         });
                 });
 
@@ -102,25 +105,25 @@ namespace CompanyInfo.Entities.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5830),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(1666),
                             KategoriAdi = "Gida"
                         },
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5833),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(1667),
                             KategoriAdi = "Tekstil"
                         },
                         new
                         {
                             Id = 3,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5835),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(1669),
                             KategoriAdi = "Eletronik"
                         },
                         new
                         {
                             Id = 4,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5838),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(1670),
                             KategoriAdi = "Otomotiv"
                         });
                 });
@@ -157,21 +160,21 @@ namespace CompanyInfo.Entities.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(9089),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(3426),
                             SirketAdi = "Abc",
                             VergiNo = "123"
                         },
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(9092),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(3428),
                             SirketAdi = "Asd",
                             VergiNo = "456"
                         },
                         new
                         {
                             Id = 3,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(9094),
+                            CreateDate = new DateTime(2024, 5, 29, 16, 10, 9, 535, DateTimeKind.Local).AddTicks(3429),
                             SirketAdi = "Qwe",
                             VergiNo = "7789"
                         });
@@ -196,9 +199,6 @@ namespace CompanyInfo.Entities.Migrations
 
                     b.Property<double?>("Fiyat")
                         .HasColumnType("float");
-
-                    b.Property<bool>("NegatifStokCalis")
-                        .HasColumnType("bit");
 
                     b.Property<string>("UrunAdi")
                         .IsRequired()

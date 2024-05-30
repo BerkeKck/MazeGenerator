@@ -4,6 +4,7 @@ using CompanyInfo.Entities.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CompanyInfo.Entities.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240529112951_createDb")]
+    partial class createDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -32,44 +35,14 @@ namespace CompanyInfo.Entities.Migrations
 
                     b.Property<string>("BirimAdi")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BirimAdi")
-                        .IsUnique();
-
                     b.ToTable("Birimler");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            BirimAdi = "Adet",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1476)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            BirimAdi = "Cm",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1480)
-                        },
-                        new
-                        {
-                            Id = 3,
-                            BirimAdi = "Gram",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1483)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            BirimAdi = "Miligram",
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(1486)
-                        });
                 });
 
             modelBuilder.Entity("CompanyInfo.Entities.Models.Concrete.Kategori", b =>
@@ -88,41 +61,11 @@ namespace CompanyInfo.Entities.Migrations
 
                     b.Property<string>("KategoriAdi")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("KategoriAdi")
-                        .IsUnique();
-
                     b.ToTable("Kategoriler");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5830),
-                            KategoriAdi = "Gida"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5833),
-                            KategoriAdi = "Tekstil"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5835),
-                            KategoriAdi = "Eletronik"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(5838),
-                            KategoriAdi = "Otomotiv"
-                        });
                 });
 
             modelBuilder.Entity("CompanyInfo.Entities.Models.Concrete.Tedarikci", b =>
@@ -138,43 +81,15 @@ namespace CompanyInfo.Entities.Migrations
 
                     b.Property<string>("SirketAdi")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VergiNo")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("VergiNo")
-                        .IsUnique();
-
                     b.ToTable("Tedarikciler");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(9089),
-                            SirketAdi = "Abc",
-                            VergiNo = "123"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(9092),
-                            SirketAdi = "Asd",
-                            VergiNo = "456"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreateDate = new DateTime(2024, 5, 30, 15, 49, 19, 333, DateTimeKind.Local).AddTicks(9094),
-                            SirketAdi = "Qwe",
-                            VergiNo = "7789"
-                        });
                 });
 
             modelBuilder.Entity("CompanyInfo.Entities.Models.Concrete.Urun", b =>
@@ -197,25 +112,16 @@ namespace CompanyInfo.Entities.Migrations
                     b.Property<double?>("Fiyat")
                         .HasColumnType("float");
 
-                    b.Property<bool>("NegatifStokCalis")
-                        .HasColumnType("bit");
-
                     b.Property<string>("UrunAdi")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UrunKodu")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("BirimId");
-
-                    b.HasIndex("UrunKodu")
-                        .IsUnique()
-                        .HasFilter("[UrunKodu] IS NOT NULL");
 
                     b.ToTable("Urunler");
                 });
