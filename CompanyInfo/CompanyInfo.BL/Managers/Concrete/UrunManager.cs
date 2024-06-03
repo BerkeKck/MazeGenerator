@@ -15,5 +15,36 @@ namespace CompanyInfo.BL.Managers.Concrete
            
             return base.GetAll(p=>p.Adet<10);
         }
+        public override int Insert(Urun input)
+        {
+            #region Urun Adi Boşmu Kontrolu
+
+            if (string.IsNullOrEmpty(input.UrunAdi))
+            {
+                throw new Exception("Urun Adi Boş Olamaz ");
+            }
+
+            if (input.UrunAdi.Trim().Length < 2)
+            {
+                throw new Exception("Urun Adi en Az 2 karekter olmalidir ");
+            }
+            #endregion
+
+            #region Fiyat Kontrolu
+
+            if (input.Fiyat == null)
+            {
+                throw new Exception("Fiyat sifirdan buyuk olmalidir");
+            }
+
+            if (input.Fiyat <= 0)
+            {
+                throw new Exception("Fiyat sifirdan buyuk olmalidir");
+            }
+
+            #endregion
+            return base.Insert(input);
+
+        }
     }
 }
