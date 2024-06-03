@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CompanyInfo.WebMvc
+build_property.RootNamespace = CompanyInfo.WebMvc
+build_property.ProjectDir = C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.WebMvc\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.WebMvc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/Birim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/Home/PersonList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJzb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/Home/_Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/Iletisim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/Test/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxIYWtraW1pemRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OGLE/source/repos/CompanyInfo/CompanyInfo.WebMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
