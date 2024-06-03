@@ -2,16 +2,11 @@
 
 namespace CompanyInfo.WebMvc.Controllers
 {
-    public class HomeController:Controller
+    public class BirimController : Controller
     {
         public IActionResult Index()
         {
-            
             return View();
         }
-
-        public IActionResult Home()
-        {
-            return View();
-        }
+    }
 }

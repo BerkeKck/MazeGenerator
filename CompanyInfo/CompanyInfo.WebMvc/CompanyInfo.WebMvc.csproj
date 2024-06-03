@@ -10,4 +10,12 @@
     <None Include="wwwroot\Form.html" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyInfo.Entities\CompanyInfo.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
