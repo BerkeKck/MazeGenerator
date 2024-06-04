@@ -8,6 +8,6 @@ namespace CompanyInfo.Entities.Models.Concrete
     {
         public string BirimAdi { get; set; }
 
-        public ICollection<Urun> Urunler { get; set; }
+        public ICollection<Urun>? Urunler { get; set; }
     }
 }

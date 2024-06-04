@@ -1,3 +1,6 @@
+using CompanyInfo.BL.Managers.Abstract;
+using CompanyInfo.BL.Managers.Concrete;
+
 namespace CompanyInfo.WebMvc
 {
     public class Program
@@ -5,18 +8,31 @@ namespace CompanyInfo.WebMvc
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddControllersWithViews(); //MVC için grekli servisleri yükler
+            builder.Services.AddControllersWithViews();// Mvc projesi icin gerekli servisleri yukler
+            
+            #region Manager siniflarinin register edilmesi
+            //Solid prensiplerinden Dipendency Invertion prensibine istinaden ,Servislere Ilgili manager sinifinin Interface 'i uzerinden register edilmistir
+            builder.Services.AddScoped<IBirimManager, BirimManager>();
+            builder.Services.AddScoped<IUrunManager, UrunManager>();
+
+
+
+            #endregion
+
 
 
             var app = builder.Build();
-            app.UseStaticFiles(); //burasý wwwroot klasorunu web'e acar
+
+
+            app.UseStaticFiles();//Burasi wwwroot klasorunu web'e acar
+
+            app.UseRouting(); // Cozumleme yapmasi icin gerekli metod. 
 
             //app.MapGet("/", () => "Hello World!");
             app.MapControllerRoute(
-                name:"default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+               name: "default",
+               pattern: "{controller=Home}/{action=Index}/{id?}");
             app.Run();
         }
     }
 }
-//shift f9

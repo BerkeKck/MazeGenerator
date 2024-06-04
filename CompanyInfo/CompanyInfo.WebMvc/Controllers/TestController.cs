@@ -3,16 +3,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CompanyInfo.WebMvc.Controllers
 {
-    public class TestController:Controller
+    public class TestController :Controller
     {
         public IActionResult Index()
         {
             GenelListeVM genelListeVM = new GenelListeVM();
-            return View();
+            return View(genelListeVM);
         }
 
-        public IActionResult Hakkimizda() 
+        public IActionResult Hakkimizda()
         {
-         return View();  
+            return View();
+        }
     }
 }

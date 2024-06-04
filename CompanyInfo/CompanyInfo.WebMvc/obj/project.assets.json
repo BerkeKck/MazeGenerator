@@ -987,6 +987,33 @@
           }
         }
       },
+      "CompanyInfo.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CompanyInfo.DAL": "1.0.0",
+          "CompanyInfo.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CompanyInfo.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyInfo.BL.dll": {}
+        }
+      },
+      "CompanyInfo.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CompanyInfo.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CompanyInfo.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyInfo.DAL.dll": {}
+        }
+      },
       "CompanyInfo.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2754,6 +2781,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CompanyInfo.BL/1.0.0": {
+      "type": "project",
+      "path": "../CompanyInfo.BL/CompanyInfo.BL.csproj",
+      "msbuildProject": "../CompanyInfo.BL/CompanyInfo.BL.csproj"
+    },
+    "CompanyInfo.DAL/1.0.0": {
+      "type": "project",
+      "path": "../CompanyInfo.DAL/CompanyInfo.DAL.csproj",
+      "msbuildProject": "../CompanyInfo.DAL/CompanyInfo.DAL.csproj"
+    },
     "CompanyInfo.Entities/1.0.0": {
       "type": "project",
       "path": "../CompanyInfo.Entities/CompanyInfo.Entities.csproj",
@@ -2762,7 +2799,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CompanyInfo.Entities >= 1.0.0"
+      "CompanyInfo.BL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2793,8 +2830,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.Entities\\CompanyInfo.Entities.csproj": {
-              "projectPath": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.Entities\\CompanyInfo.Entities.csproj"
+            "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.BL\\CompanyInfo.BL.csproj": {
+              "projectPath": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.BL\\CompanyInfo.BL.csproj"
             }
           }
         }

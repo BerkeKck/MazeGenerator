@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m9/bSCohSk5j8uXuhRvQ3samOO8zeexn5+M6Q9S7uMA=",
+  "Hash": "tnd1c50olN+8QSICJLuslvPi/wn+s2S3HMLBvQIULl4=",
   "Source": "CompanyInfo.WebMvc",
   "BasePath": "_content/CompanyInfo.WebMvc",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\bootstrap.html",
+      "SourceId": "CompanyInfo.WebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\",
+      "BasePath": "_content/CompanyInfo.WebMvc",
+      "RelativePath": "bootstrap.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap.html"
+    },
     {
       "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\Form.html",
       "SourceId": "CompanyInfo.WebMvc",
@@ -34,6 +53,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Form.html"
+    },
+    {
+      "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\ilksayfam.html",
+      "SourceId": "CompanyInfo.WebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\",
+      "BasePath": "_content/CompanyInfo.WebMvc",
+      "RelativePath": "ilksayfam.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ilksayfam.html"
+    },
+    {
+      "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\Table.html",
+      "SourceId": "CompanyInfo.WebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\",
+      "BasePath": "_content/CompanyInfo.WebMvc",
+      "RelativePath": "Table.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Table.html"
     }
   ]
 }

@@ -11,11 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Home\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CompanyInfo.Entities\CompanyInfo.Entities.csproj" />
+    <ProjectReference Include="..\CompanyInfo.BL\CompanyInfo.BL.csproj" />
   </ItemGroup>
 
 </Project>

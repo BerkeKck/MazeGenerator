@@ -4,10 +4,8 @@ namespace CompanyInfo.WebMvc.Models
 {
     public class GenelListeVM
     {
-        public List<Uri> MyProperty { get; set; }
-
-        public List<Kategori> kategoriler { get; set; } 
-
-        public List<Tedarikci> tedarikciler { get; set; }   
+        public List<Urun> Urunler { get; set; }
+        public List<Kategori> Kategoriler { get; set; }
+        public List<Tedarikci> Tedarikciler { get; set; }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.BL.deps.json
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.BL.dll
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.BL.pdb
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.DAL.dll
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.Entities.dll
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.DAL.pdb
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\bin\Debug\net8.0\CompanyInfo.Entities.pdb
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.csproj.AssemblyReference.cache
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.AssemblyInfoInputs.cache
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.AssemblyInfo.cs
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.csproj.CoreCompileInputs.cache
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyI.B3FE6E51.Up2Date
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.dll
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\refint\CompanyInfo.BL.dll
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\CompanyInfo.BL.pdb
+C:\Users\OGLE\source\repos\CompanyInfo\CompanyInfo.BL\obj\Debug\net8.0\ref\CompanyInfo.BL.dll

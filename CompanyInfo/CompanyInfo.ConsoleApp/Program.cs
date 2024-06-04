@@ -98,13 +98,35 @@ namespace CompanyInfo.ConsoleApp
             var birimler = birimManager.GetAll();
 
             var urunManager = new UrunManager();
-            var buzdolabi = new Urun
+
+            var kategoriManager = new ManagerBase<Kategori>();
+
+            //var buzdolabi = new Urun
+            //{
+            //    BirimId=1,
+            //    Fiyat=20000,
+            //    UrunAdi="Arcelik Buzdolabi",
+            //    Adet = 2
+            //};
+
+            var kalem = new Urun
             {
-                BirimId=1,
-                Fiyat=20000,
-                UrunAdi="Arcelik Buzdolabi",
-                Adet = 2
+                UrunAdi = "Kursun Kalem",
+                UrunKodu = "AAABBCC",
+                Fiyat =null,
+                Adet=2
+
             };
+            try
+            {
+                urunManager.Insert(kalem);
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
            // var kategoriManager= new ManagerBase<Kategori>();
 
            // var elektornik = kategoriManager.Get(p => p.KategoriAdi == "Elektronik");

@@ -17,7 +17,14 @@ namespace CompanyInfo.Entities.DbContexts
         public DbSet<Kategori> Kategoriler { get; set; }
         public DbSet<Tedarikci> Tedarikciler { get; set; }
         public DbSet<Birim> Birimler { get; set; }
-
+        public AppDbContext()
+        {
+            
+        }
+        public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
+        {
+            
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=IstkaCompanyInfo;Trusted_Connection=true;
