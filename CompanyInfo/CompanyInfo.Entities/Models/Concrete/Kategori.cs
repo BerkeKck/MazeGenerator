@@ -13,6 +13,6 @@ namespace CompanyInfo.Entities.Models.Concrete
         public string KategoriAdi { get; set; }
         public string?   Aciklama { get; set; }
 
-        public ICollection<Urun> Urunler { get; set; } = new List<Urun>();
+        public ICollection<Urun>? Urunler { get; set; } = new List<Urun>();
     }
 }

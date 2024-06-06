@@ -15,6 +15,8 @@ namespace CompanyInfo.MVCUI
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<IBirimManager, BirimManager>();
             builder.Services.AddScoped<IUrunManager,UrunManager>();
+            builder.Services.AddScoped<IKategoriManager, KategoriManager>();
+
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("default"))
             );

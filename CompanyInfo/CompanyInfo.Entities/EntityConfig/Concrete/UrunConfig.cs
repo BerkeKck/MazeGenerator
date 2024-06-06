@@ -8,5 +8,6 @@ namespace CompanyInfo.Entities.EntityConfig.Concrete
 {
     internal class UrunConfig
     {
+
     }
 }

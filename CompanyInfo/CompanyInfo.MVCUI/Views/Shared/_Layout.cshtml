@@ -31,6 +31,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Urun" asp-action="Index">Urunler</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Kategori" asp-action="Index">Kategoriler</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -50,6 +54,13 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    @* 
+
+    Aşagidaki kod Sayfalarda Scripts isminde bir Section(Bolum)
+    tanimlayabilecegimizi soyler. Required parametresi ise
+    bu tanimlamanin zorunlu olup olmadigini belirler.
+    
+    *@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

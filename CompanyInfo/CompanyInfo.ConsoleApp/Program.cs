@@ -69,7 +69,7 @@ namespace CompanyInfo.ConsoleApp
             //var asus = appDb.Urunler
             //    .Include(p=>p.Kategoriler)
             //    .FirstOrDefault(p=>p.Id==4);
-            
+
             //var silinecekKategori = asus.Kategoriler.FirstOrDefault(p => p.KategoriAdi.ToUpper() =="noTebooK".ToUpper());
 
             //var eklenecekKategori = appDb.Kategoriler.FirstOrDefault(p => p.KategoriAdi.Contains("laptop"));
@@ -94,12 +94,12 @@ namespace CompanyInfo.ConsoleApp
             #endregion
 
             #region Manager Sisinflarini Kullanma
-            var birimManager =new  ManagerBase<Birim>();
-            var birimler = birimManager.GetAll();
+            //var birimManager =new  ManagerBase<Birim>();
+            //var birimler = birimManager.GetAll();
 
-            var urunManager = new UrunManager();
+            //var urunManager = new UrunManager();
 
-            var kategoriManager = new ManagerBase<Kategori>();
+            //var kategoriManager = new ManagerBase<Kategori>();
 
             //var buzdolabi = new Urun
             //{
@@ -109,39 +109,88 @@ namespace CompanyInfo.ConsoleApp
             //    Adet = 2
             //};
 
-            var kalem = new Urun
-            {
-                UrunAdi = "Kursun Kalem",
-                UrunKodu = "AAABBCC",
-                Fiyat =null,
-                Adet=2
+            //var kalem = new Urun
+            //{
+            //    UrunAdi = "Kursun Kalem",
+            //    UrunKodu = "AAABBCC",
+            //    Fiyat =null,
+            //    Adet=2
 
-            };
-            try
-            {
-                urunManager.Insert(kalem);
+            //};
+            //try
+            //{
+            //    urunManager.Insert(kalem);
 
-            }
-            catch (Exception ex)
-            {
+            //}
+            //catch (Exception ex)
+            //{
 
-                Console.WriteLine(ex.Message);
-            }
-           // var kategoriManager= new ManagerBase<Kategori>();
+            //    Console.WriteLine(ex.Message);
+            //}
+            // var kategoriManager= new ManagerBase<Kategori>();
 
-           // var elektornik = kategoriManager.Get(p => p.KategoriAdi == "Elektronik");
-           // var beyazesya = new Kategori { KategoriAdi = "BeyazEsya", Aciklama = "Beyaz Esya" };
+            // var elektornik = kategoriManager.Get(p => p.KategoriAdi == "Elektronik");
+            // var beyazesya = new Kategori { KategoriAdi = "BeyazEsya", Aciklama = "Beyaz Esya" };
 
-           //// buzdolabi.Kategoriler.Add(elektornik);
-           // buzdolabi.Kategoriler.Add(beyazesya);
-           // urunManager.Insert(buzdolabi);
+            //// buzdolabi.Kategoriler.Add(elektornik);
+            // buzdolabi.Kategoriler.Add(beyazesya);
+            // urunManager.Insert(buzdolabi);
 
-            var liste = urunManager.KritikStokSeviyesiAltindakiler();
+            //var liste = urunManager.KritikStokSeviyesiAltindakiler();
 
             #endregion
 
 
-            Console.WriteLine("Hello, World!");
+
+            #region Thread 
+
+            //Thread t1 = new Thread(() => {
+            //    for (int i = 0; i < 10; i++)
+            //    {
+            //        Thread.Sleep(500);
+            //        Console.WriteLine("Thread1 :" + i);
+            //    }
+            //});
+            //t1.Start();
+
+            //Thread t2 = new Thread(() => {
+            //    for (int i = 0; i < 10; i++)
+            //    {
+            //        Thread.Sleep(1000);
+            //        Console.WriteLine("Thread2 :" + i);
+            //    }
+            //});
+            //t2.Start();
+            #endregion
+
+            #region Task
+            // Task sinifi geri donus degeri yoksa bu şekilde kullanilir. Icerisine bir Action delegate alir 
+            //Task t1 = Task.Run(Test1);
+
+            //Buradaki generic kullanimda ise geriye int donen bir metodu calistirir.
+            //Task<int> t2 = Task.Run(Toplam);
+            //Console.WriteLine("Task 2  Status:" + t2.Status);
+            //Console.WriteLine("Toplam:"+t2.Result);
+            //Console.WriteLine("Task 2  Status:" + t2.Status);
+            #endregion
+            Console.WriteLine("Hello Main Thread");
+        }
+       public static void Test1()
+       {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Task 1:" +i);
+            }
+        }
+
+        public static int Toplam()
+        {
+            int toplam = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                toplam += i;
+            }
+            return toplam;
         }
     }
 }
