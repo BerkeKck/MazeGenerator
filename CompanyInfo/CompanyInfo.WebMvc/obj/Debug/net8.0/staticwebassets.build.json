@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tnd1c50olN+8QSICJLuslvPi/wn+s2S3HMLBvQIULl4=",
+  "Hash": "teoxEE//pFqQhPP16dAGqLUbutWdWnPpbhYPUulivqk=",
   "Source": "CompanyInfo.WebMvc",
   "BasePath": "_content/CompanyInfo.WebMvc",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap.html"
+    },
+    {
+      "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\CssSample.html",
+      "SourceId": "CompanyInfo.WebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\",
+      "BasePath": "_content/CompanyInfo.WebMvc",
+      "RelativePath": "CssSample.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CssSample.html"
     },
     {
       "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\Form.html",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ilksayfam.html"
+    },
+    {
+      "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\site.css",
+      "SourceId": "CompanyInfo.WebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\",
+      "BasePath": "_content/CompanyInfo.WebMvc",
+      "RelativePath": "site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
     },
     {
       "Identity": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\Table.html",

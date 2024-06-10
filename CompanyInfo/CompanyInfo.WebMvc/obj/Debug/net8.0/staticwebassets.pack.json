@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\CssSample.html",
+      "PackagePath": "staticwebassets\\CssSample.html"
+    },
+    {
       "Id": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\Form.html",
       "PackagePath": "staticwebassets\\Form.html"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\ilksayfam.html",
       "PackagePath": "staticwebassets\\ilksayfam.html"
+    },
+    {
+      "Id": "C:\\Users\\OGLE\\source\\repos\\CompanyInfo\\CompanyInfo.WebMvc\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CompanyInfo.WebMvc.Microsoft.AspNetCore.StaticWebAssets.props",
