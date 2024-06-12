@@ -71,6 +71,20 @@ namespace CompanyInfo.DAL.Repository.Concrete
         {
             return _dbSet.Find(id);
         }
+        public  IQueryable<T> GetAllInclude(Expression<Func<T, bool>>? predicate, params Expression<Func<T, object>>[] include)
+        {
+            IQueryable<T> query;
+            if (predicate != null)
+            {
+                query = _dbContext.Set<T>().Where(predicate);
+            }
+            else
+            {
+                query = _dbContext.Set<T>();
+            }
+
+            return include.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
+        }
 
     }
 }

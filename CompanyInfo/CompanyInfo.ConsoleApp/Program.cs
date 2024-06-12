@@ -93,7 +93,7 @@ namespace CompanyInfo.ConsoleApp
             //birimler.ForEach(p => Console.WriteLine(p.BirimAdi));
             #endregion
 
-            #region Manager Sisinflarini Kullanma
+            #region Manager Sininflarini Kullanma
             //var birimManager =new  ManagerBase<Birim>();
             //var birimler = birimManager.GetAll();
 
@@ -173,6 +173,8 @@ namespace CompanyInfo.ConsoleApp
             //Console.WriteLine("Toplam:"+t2.Result);
             //Console.WriteLine("Task 2  Status:" + t2.Status);
             #endregion
+
+
             Console.WriteLine("Hello Main Thread");
         }
        public static void Test1()
