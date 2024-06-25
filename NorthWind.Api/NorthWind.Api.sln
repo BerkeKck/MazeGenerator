@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Api", "NorthWind.Api\NorthWind.Api.csproj", "{318DBE67-ED24-4951-B1D9-84A46757DA20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWindApiConsole", "NorthWindApiConsole\NorthWindApiConsole.csproj", "{31BF1211-B7D1-40E3-8105-EA9555337C20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{318DBE67-ED24-4951-B1D9-84A46757DA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318DBE67-ED24-4951-B1D9-84A46757DA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318DBE67-ED24-4951-B1D9-84A46757DA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BF1211-B7D1-40E3-8105-EA9555337C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BF1211-B7D1-40E3-8105-EA9555337C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BF1211-B7D1-40E3-8105-EA9555337C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BF1211-B7D1-40E3-8105-EA9555337C20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
