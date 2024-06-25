@@ -4,13 +4,13 @@
     <div class="card-header">
         <h3 class="text-success">Yeni Urun Tanimlama Sayfasi</h3>
         @*
-        asp-validation-summary tag helper 'i 
+        asp-validation-summary tag helper 'i
         manuel verdigimiz hatalari basmaya yarar
 
         *@
 
 
-       
+
     </div>
     <div class="card-body">
         <form asp-action="Create" method="post">
@@ -33,7 +33,7 @@
                         <option value="@birim.Id">@birim.BirimAdi</option>
                     }
                 </select>
-               @*  <input asp-for="BirimId" />
+                @*  <input asp-for="BirimId" />
                 <span asp-validation-for="BirimId" class="text-danger"></span> *@
             </div>
             <div class="mt-3">

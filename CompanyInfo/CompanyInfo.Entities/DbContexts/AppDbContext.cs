@@ -17,6 +17,11 @@ namespace CompanyInfo.Entities.DbContexts
         public DbSet<Kategori> Kategoriler { get; set; }
         public DbSet<Tedarikci> Tedarikciler { get; set; }
         public DbSet<Birim> Birimler { get; set; }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roller{ get; set; }
+
+
         public AppDbContext()
         {
             

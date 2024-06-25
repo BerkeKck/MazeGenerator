@@ -17,7 +17,8 @@ Diger ICollection yada List seklindeki tanimlamalari kabul etmez
             <td>@Html.DisplayNameFor(p => p.UrunKodu)</td>
             <td>@Html.DisplayNameFor(p => p.Fiyat)</td>
             <td>@Html.DisplayNameFor(p => p.Adet)</td>
-            <td>@Html.DisplayNameFor(p => p.BirimId)</td>
+            <td>@Html.DisplayNameFor(p => p.Birim)</td>
+                <td>Kategoriler</td>
 
         </tr>
     </thead>
@@ -30,8 +31,11 @@ Diger ICollection yada List seklindeki tanimlamalari kabul etmez
                 <td>@urun.UrunKodu</td>
                 <td>@urun.Fiyat</td>
                 <td>@urun.Adet</td>
-                <td>@urun.BirimId</td>
-
+                <td>@urun.Birim.BirimAdi</td>
+                <td> <a class="btn btn-success" 
+                    asp-action="KategoriYonetYeni" 
+                    asp-route-id="@urun.Id">Kategoriler</a>   
+                </td>
 
             </tr>
         }

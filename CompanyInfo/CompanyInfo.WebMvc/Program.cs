@@ -14,6 +14,7 @@ namespace CompanyInfo.WebMvc
             //Solid prensiplerinden Dipendency Invertion prensibine istinaden ,Servislere Ilgili manager sinifinin Interface 'i uzerinden register edilmistir
             builder.Services.AddScoped<IBirimManager, BirimManager>();
             builder.Services.AddScoped<IUrunManager, UrunManager>();
+            builder.Services.AddScoped<IKategoriManager, KategoriManager>();
 
 
 

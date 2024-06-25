@@ -19,6 +19,9 @@ namespace CompanyInfo.DAL.Repository.Abstract
         public T? GetById(int id);
 
         public T? Get(Expression<Func<T, bool>> predicate = null);
-        
+
+       IQueryable<T> GetAllInclude(Expression<Func<T, bool>>? predicate,
+          params Expression<Func<T, object>>[] include);
+
     }
 }
