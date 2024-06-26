@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OGLE\\source\\repos\\NorthWind.Api\\NorthWind.Api\\NorthWind.Api.csproj",
+      "projectUniqueName": "C:\\Users\\OGLE\\Documents\\GitHub\\WissenNotes\\NorthWind.Api\\NorthWind.Api\\NorthWind.Api.csproj",
       "projectName": "NorthWind.Api",
-      "projectPath": "C:\\Users\\OGLE\\source\\repos\\NorthWind.Api\\NorthWind.Api\\NorthWind.Api.csproj",
+      "projectPath": "C:\\Users\\OGLE\\Documents\\GitHub\\WissenNotes\\NorthWind.Api\\NorthWind.Api\\NorthWind.Api.csproj",
       "packagesPath": "C:\\Users\\OGLE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OGLE\\source\\repos\\NorthWind.Api\\NorthWind.Api\\obj\\",
+      "outputPath": "C:\\Users\\OGLE\\Documents\\GitHub\\WissenNotes\\NorthWind.Api\\NorthWind.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OGLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
