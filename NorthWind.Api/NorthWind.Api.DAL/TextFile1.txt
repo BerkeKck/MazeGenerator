@@ -1,0 +1,5 @@
+﻿1- Entity atmanı prejeye referans olarak verilir
+2- Abstract ve concrete klasörleri olusturulr
+3- Abstract Klasorune IRepository interface2i eklenir
+4- Concrete klasorune de Repository class'i eklenip Irepositoryden inherit alınır. Yani interface'deki
+5- 
