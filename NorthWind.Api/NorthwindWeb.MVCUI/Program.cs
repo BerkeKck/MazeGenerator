@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Northwind.BL.Abstract;
+using Northwind.BL.Concrete;
+using Northwind.Entites.Entities;
+
 namespace NorthwindWeb.MVCUI
 {
     public class Program
@@ -8,7 +13,12 @@ namespace NorthwindWeb.MVCUI
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-              
+            
+            builder.Services.AddDbContext<NorthwindContext>(p=>p.UseSqlServer(builder.Configuration.GetConnectionString("Northwind")));
+           
+
+            builder.Services.AddScoped<IShipperManager, ShipperManager>();
+            //builder.Services.AddDbContext
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -28,7 +38,7 @@ namespace NorthwindWeb.MVCUI
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=ajax}/{action=Index}/{id?}");
 
             app.Run();
         }

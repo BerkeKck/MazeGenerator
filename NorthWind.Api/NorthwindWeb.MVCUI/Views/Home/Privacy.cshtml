@@ -8,7 +8,7 @@
 
             var jsonString = result.Content.ReadAsStringAsync().Result;
 
-            var categories = JsonSerializer.Deserialize<List<Category>>(jsonString);
+            var categories = JsonSerializer.Deserialize<List<NorthwindWeb.MVCUI.Models.Category>>(jsonString);
 }
 
 <table class="table">
@@ -20,11 +20,11 @@
         </tr>
     </thead>
     <tbody>
-        @foreach(Category cat in categories)
+        @foreach(NorthwindWeb.MVCUI.Models.Category cat in categories)
         {
             <tr>
                 <td>@cat.id</td>
-                <td>@cat.name</td>
+                <td>@cat.Name</td>
                 <td>@cat.description</td>
 
 
