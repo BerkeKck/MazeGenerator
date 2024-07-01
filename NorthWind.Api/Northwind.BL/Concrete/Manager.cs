@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.BL.Concrete
 {
-    public class Manager<TContext,T> : Repository<TContext,T>, IManager<T> 
+    public class Manager<TContext,T> : Repository<TContext,T>, IManager<TContext,T> 
         where T : class
         where TContext : DbContext,new()
     {

@@ -1,4 +1,5 @@
-﻿using Northwind.DAL.Abstract;
+﻿using Microsoft.EntityFrameworkCore;
+using Northwind.DAL.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,9 @@ using System.Threading.Tasks;
 
 namespace Northwind.BL.Abstract
 {
-    public interface IManager<T> : IRepository<T> where T : class
+    public interface IManager<TContext ,T> : IRepository<T> 
+        where T : class
+        where TContext : DbContext
     {
 
     }

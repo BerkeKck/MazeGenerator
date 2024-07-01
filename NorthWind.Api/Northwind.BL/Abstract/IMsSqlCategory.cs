@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.BL.Abstract
 {
-    public interface IShipperManager:IManager<NorthwindContext, Shipper>
+    public interface IMsSqlCategory:IManager<NorthwindContext, Category>
     {
     }
 }
