@@ -1,0 +1,3 @@
+﻿JWT Uygulamasi Icın 
+1- Microsoft.AspNetCore.Authentication.JwtBearer 
+paketini kurulmasi gerekir
