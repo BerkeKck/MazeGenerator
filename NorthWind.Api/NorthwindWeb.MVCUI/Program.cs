@@ -38,7 +38,7 @@ namespace NorthwindWeb.MVCUI
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=ajax}/{action=Index}/{id?}");
+                pattern: "{controller=Order}/{action=Index}/{id?}");
 
             app.Run();
         }
