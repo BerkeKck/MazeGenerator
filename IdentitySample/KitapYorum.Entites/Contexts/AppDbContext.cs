@@ -25,7 +25,7 @@ namespace KitapYorum.Entites.Contexts
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            //base.OnModelCreating(builder);
+            base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
         public AppDbContext()
