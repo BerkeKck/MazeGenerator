@@ -11,11 +11,18 @@ namespace KitapYorum.Entites.Concrete
     public class MyUser:IdentityUser
     {
         public string TcNo { get; set; }
-        public bool Cinsiyet { get; set; }
+        public bool? Cinsiyet { get; set; }
 
-        public DateTime DogumTarihi { get; set; }
+        public DateTime? DogumTarihi { get; set; }
 
-        [NotMapped]
-        public int Yas { get; set; } 
+        [NotMapped] // Burasi Database'e yansimayacaktir
+        public int? Yas { get; set; }
+
+        public ICollection<Yorum>? Yorumlar { get; set; }
+        public MyUser()
+        {
+            if(DogumTarihi.HasValue)
+                Yas = DateTime.Now.Year-DogumTarihi.Value.Year;
+        }
     }
 }

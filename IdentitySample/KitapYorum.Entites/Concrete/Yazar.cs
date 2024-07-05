@@ -11,8 +11,8 @@ namespace KitapYorum.Entites.Concrete
     {
         public string Ad { get; set; }
         public string Soyad { get; set; }
-        public DateTime DogumTarihi { get; set; }
-        public bool Cinsiyet { get; set; }
+        public DateTime? DogumTarihi { get; set; }
+        public bool? Cinsiyet { get; set; }
         public ICollection<Kitap> Kitaplar { get; set; }
     }
 }
